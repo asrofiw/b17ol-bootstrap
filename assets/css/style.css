@@ -1,0 +1,484 @@
+body {
+    font-family: Metropolis;
+    font-size: 14px;
+}
+
+.color-theme {
+    color: #273AC7;
+}
+
+.bg-color-theme {
+    background-color: #273AC7;
+}
+
+.font-size-small {
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #273AC7;
+}
+
+.font-color-theme {
+    color: #9B9B9B;
+}
+
+/* Login and Signup */
+
+.body-login a{
+    color: #273AC7;
+}
+
+.body-login .head {
+    margin-bottom: 50px;
+}
+
+
+.body-login .head .logo {
+    margin-bottom: 40px;
+}
+
+
+.body-login .head .message {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.body-login .switch {
+    margin-bottom: 40px;
+}
+
+.body-login .btn-group .btn {
+    width: 123px;
+}
+
+.body-login .btn-primary {
+    background-color: #273AC7;
+    color: #ffffff;
+}
+
+.body-login .btn-secondary {
+    background-color: #ffffff;
+    color: #9B9B9B;
+    border: 1px solid #9B9B9B;
+}
+
+.body-login .btn-secondary:hover {
+    background-color: #273AC7 ;
+    border-color: #5a95f5 ;
+    color: #ffffff;
+}
+
+.body-login .form-login {
+    margin-bottom: 40px;
+}
+
+.body-login .input {
+    color: #9B9B9B;
+    border: 0 solid #9B9B9B;
+    width: 400px;
+}
+
+.body-login .form-login .input .input-pass {
+    margin-bottom: 50px;
+}
+
+.body-login .form-login .form-control, .body-login .btn {
+    height: 48px;
+}
+
+.body-login .form-login .forgot {
+    margin-bottom: 26px;
+}
+
+
+
+/* Navbar */
+
+.navbar {
+    padding: 30px 100px;
+}
+
+.navbar .navbar-brand {
+    margin-right: 60px;
+}
+
+.navbar .navbar-nav .input-group input {
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-right: 0;
+    width: 455px;
+    height: 40px;
+    border-color: #9B9B9B;
+}
+
+.navbar .navbar-nav .input-group input:focus {
+    outline: none;
+}
+
+.navbar .navbar-nav .input-group button {
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    height: 40px;
+    border-left: 0;
+    border-color: #9B9B9B;
+}
+
+.navbar .navbar-nav .filter .btn {
+    border-color: #9B9B9B;
+    border-radius: 12px;
+}
+
+.navbar .navbar-nav .img-cart {
+    margin-right: 40px;
+}
+
+.navbar .navbar-nav .btn-group button {
+    width: 100px;
+}
+
+.navbar .navbar-nav .btn-group .login {
+    background-color: #273AC7;
+}
+.navbar .navbar-nav .btn-group .login:hover {
+    background-color: #5a95f5;
+    border-color: #5a95f5;
+}
+
+.navbar .navbar-nav .btn-group .signup:hover {
+    background-color: #5a95f5 ;
+    border-color: #5a95f5 ;
+}
+
+.navbar .img-profile img{
+    width: 32px;
+    height: 32px;
+}
+
+/* Cart */
+.sec {
+    padding: 0 100px;
+}
+
+.sec .container input {
+    width: 20px;
+    height: 20px;
+}
+
+.sec .container .item-1 {
+    height: 64px;
+}
+
+.sec .container .item-1 a:hover {
+    color: #5a95f5;
+}
+
+.sec .container .item-2 {
+    height: 126px;
+}
+
+.sec .container .container-btn {
+    width: 112px;
+    height: 36px;
+}
+
+.sec .container .item-2 button {
+    width: 36px;
+    height: 36px;
+}
+
+.sec .container .item-4 {
+    height: 180px;
+}
+
+.sec .container .btn-primary:hover {
+    background-color: #5a95f5;
+    border-color: #5a95f5;
+}
+
+/* Detail */
+.body-section {
+    padding: 0 100px;
+}
+
+.detail .body-section .detail-image{
+    width: 367px;
+}
+
+.detail .body-section .detail-image .images .img {
+    width: 65px;
+    height: 65px;
+}
+
+.detail .body-section .detail-other .color button {
+    width: 36px;
+    height: 36px;
+}
+
+.detail .body-section .detail-other .size-total .container {
+    width: 112px;
+    height: 36px;
+}
+
+.detail .body-section .detail-other .size-total .container button {
+    width: 36px;
+    height: 36px;
+}
+
+.detail .body-section .detail-other .btn-group {
+    height: 48px;
+}
+
+.detail .body-section .detail-other .btn-group .btn-second {
+    background-color: #273AC7;
+}
+
+.detail .body-section .detail-other .btn-group .btn-second:hover {
+    background-color: #5a95f5;
+}
+
+.detail .body-section .detail-other .btn-group .btn-first:hover {
+    background-color: #5a95f5 ;
+    border-color: #5a95f5 ;
+}
+
+.detail .field p {
+    font-size: 14px;
+}
+
+.detail .body-section .foot .message-2 {
+    font-size: 14px;
+}
+
+.detail .body-section .review .review-total {
+    width: 94px;
+    height: 60px;
+    font-size: 60px;
+}
+.detail .body-section .review .star {
+    width: 22px;
+    height: 22px;
+}
+
+.detail .body-section .review .meter-1 {
+    width: 120px;
+    height: 7px;
+    background-color: #273AC7;
+}
+
+.detail .body-section .review .meter {
+    width: 120px;
+    height: 2px;
+}
+
+/* Card */
+
+.card {
+    width: 208px;
+}
+
+.card .card-body {
+    padding: 10px 12px 21px;
+}
+
+.card .card-body .card-title a{
+    font-size: 16px;
+    color: #000000;
+}
+
+.card .card-body .card-title a:hover{
+    color: #5a95f5;
+}
+
+.card .card-body .txt-1 {
+    font-size: 16px;
+    color: #273AC7;
+}
+
+.card .card-body .txt-2 {
+    font-size: 12px;
+}
+
+/* Checkout */
+
+.checkout .sec .container .item-1 {
+    height: 190px;
+}
+
+.checkout .sec .container .item-4 {
+    height: 256px;
+}
+
+.checkout .sec .container .item-1 p {
+    font-size: 14px;
+}
+
+.checkout .sec .container .item-1 button {
+    width: 210px;
+    font-size: 14px;
+}
+
+.checkout .sec .container .item-1 button:hover {
+    background-color: #5a95f5;
+    border-color: #5a95f5;
+}
+
+.checkout .sec .container .item-4 .line {
+    background-color: #000000;
+    height: 1px;
+}
+
+/* Profile */
+
+.profile .navbar {
+    margin: 0;
+}
+
+.profile .body-section {
+    background-color: #f5f5f5;
+    padding: 0;
+}
+
+.profile .body-section .left-bar {
+    background-color: #ffffff;
+    padding-left: 100px;
+}
+
+.profile .body-section .left-bar .profile-bar img {
+    width: 60px;
+    height: 60px;
+}
+
+.profile .body-section .left-bar .profile-bar .edit-profile img {
+    width: 16px;
+    height: 16px;
+}
+
+.profile .body-section .left-bar .profile-bar .edit-profile span {
+    font-size: 14px;
+}
+
+.profile .body-section .left-bar .fill-left a {
+    width: 32px;
+    height: 32px;
+}
+
+.profile .body-section .body-bar {
+    padding-right: 100px;   
+}
+
+.profile .body-section .body-bar .fill-bar{
+    width: 750px;
+    height: 636px;
+    background-color: #ffffff;
+}
+
+.profile .body-section .body-bar .fill-bar .form-control {
+    width: 348px;
+    height: 48px;
+}
+
+.profile .body-section .body-bar .fill-bar .label-width {
+    width: 100px;
+}
+
+.profile .body-section .body-bar .fill-bar .radio {
+    width: 348px;
+    height: 48px;
+}
+
+.profile .body-section .body-bar .fill-bar .drop {
+    width: 348px;
+    height: 48px;
+}
+
+.profile .body-section .body-bar .fill-bar .drop .btn {
+    width: 100px;
+}
+
+.profile .body-section .body-bar .line {
+    background-color: #d4d4d4;
+    height: 1px;
+}
+
+.profile .body-section .body-bar .btn-save {
+    width: 100px;
+}
+
+.profile .body-section .fill-bar .fill-image {
+    width: 180px;
+    height: 166px;
+}
+
+.profile .body-section .fill-bar .fill-image img{
+    width: 110px;
+    height: 110px;
+}
+
+.profile .body-section .fill-bar .fill-image .btn:hover{
+    background-color: #5a95f5;
+    border-color: #5a95f5;
+}
+
+/* Home */
+
+.home .body-section .slide button {
+    width: 52px;
+    height: 52px;
+    top: 35%;
+}
+
+.home .body-section .slide .left-arrow {
+    left: 60px;
+}
+
+.home .body-section .slide .left-arrow img {
+    transform: rotate(180deg);
+}
+
+.home .body-section .slide .right-arrow{
+    right: 60px;
+}
+
+.home .body-section .indicators {
+    width: 80px;
+}
+
+.home .body-section .indicators .item {
+    width: 10px;
+    height: 10px;
+    background-color: #eaeaea;
+}
+
+.home .body-section .category .category-items {
+    width: 206px;
+    height: 220px;
+}
+
+.home .body-section .category .category-items.item-1 {
+    background-color: #CC0B04;
+}
+
+.home .body-section .category .category-items.item-2 {
+    background-color: #1C3391;
+}
+
+.home .body-section .category .category-items.item-3 {
+    background-color: #F67B02;
+}
+
+.home .body-section .category .category-items.item-4 {
+    background-color: #E31F51;
+}
+
+.home .body-section .category .category-items.item-5 {
+    background-color: #57CD9E;
+}
+
+.home .body-section .category button {
+    width: 52px;
+    height: 52px;
+    right: -25px;
+    top: 35%;
+}
+

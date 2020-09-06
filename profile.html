@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="profile font-size-small">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow bg-white sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo-44px.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <div class="input-group">
+                        <input type="search" class="form-control pl-4" placeholder="Search">
+                        <div class="input-group-append mr-3">
+                            <button class="btn pr-3 text-center" type="button" id="button-addon2">
+                                <img src="./assets/images/search.svg" alt="search">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="filter input-group-append">
+                        <button class="btn" type="button" id="button-addon2">
+                            <img src="./assets/images/filter.svg" alt="filter">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-nav nav justify-content-end">
+                <div class="btn-group align-items-center justify-content-center">
+                    <div class="img-cart mr-4">
+                        <a class="btn" href="#">
+                            <img src="./assets/images/cart.svg" alt="cart">
+                        </a>
+                    </div>
+                    <div class="img-bell mr-3">
+                        <a class="btn" href="#">
+                            <img src="./assets/images/bell.svg" alt="notification">
+                        </a>
+                    </div>
+                    <div class="img-mail mr-3">
+                        <a class="btn" href="#">
+                            <img src="./assets/images/mail.svg" alt="mail">
+                        </a>
+                    </div>
+                    <div class="img-profile">
+                        <a class="btn" href="#">
+                            <img class="rounded-circle" src="./assets/images/profile.jpg" alt="profile">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="body-section d-flex">
+            <div class="left-bar d-flex flex-column pr-5 pt-5 mr-5">
+                <div class="profile-bar d-flex align-items-center mb-5">
+                    <img class="rounded-circle mr-3" src="./assets/images/profile.jpg">
+                    <div class="d-flex flex-column">
+                        <span class="font-weight-bold h6 mb-1">Johanes Mikael</span>
+                        <div class="edit-profile d-flex align-items-center">
+                            <a class="btn p-0 mr-2" href="#">
+                                <img class="m-0 p-0" src="./assets/images/edit.svg">
+                            </a>
+                            <span class="text-muted">Ubah profile</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fill-left d-flex flex-column">
+                    <div class="account-bar mb-4">
+                        <a class="btn btn-primary p-0 rounded-circle mr-2" href="#">
+                            <img src="./assets/images/user.svg" alt="">
+                        </a>
+                        <span>My account</span>
+                    </div>
+                    <div class="shipping-bar mb-4">
+                        <a class="btn btn-warning p-0 rounded-circle mr-2" href="#">
+                            <img src="./assets/images/map.svg" alt="">
+                        </a>
+                        <span class="text-muted">Shipping address</span>
+                    </div>
+                    <div class="order-bar">
+                        <a class="btn btn-danger p-0 rounded-circle mr-2" href="#">
+                            <img src="./assets/images/clipboard.svg" alt="">
+                        </a>
+                        <span class="text-muted">My order</span>
+                    </div>
+                </div>
+            </div>
+            <div class="body-bar pb-5 mt-5 flex-fill">
+                <div class="fill-bar w-100 p-4 border">
+                    <div class="d-flex flex-column mb-3">
+                        <div class="mb-3">
+                            <span class="h4 font-weight-bold">My Profile</span>
+                        </div>
+                        <div class="mb-3">
+                            <span class="font-size-small text-muted">Manage your profile information</span>
+                        </div>
+                        <div class="line w-100 mb-3"></div>
+                    </div>
+                    <div class="d-flex text-muted">
+                        <div class="d-flex flex-column flex-grow-1">
+                            <form>
+                                <div class="form-group d-flex align-items-center mb-4 mr-5">
+                                    <div class="label-width flex-fill text-right">
+                                        <label class="col-form-label">Name</label>
+                                    </div>
+                                    <input type="text" class="form-control border ml-5" value="Johanes Mikael">
+                                </div>
+                                <div class="form-group d-flex align-items-center mb-4 mr-5">
+                                    <div class="flex-fill text-right">
+                                        <label class="col-form-label">Email</label>
+                                    </div>
+                                    <input type="email" class="form-control ml-5"
+                                    value="johanes@gmail.com">
+                                </div>
+                                <div class="form-group d-flex align-items-center mb-4 mr-5">
+                                    <div class="flex-fill text-right">
+                                        <label class="col-form-label">Phone number</label>
+                                    </div>
+                                    <input type="text" class="form-control ml-5"
+                                    value="08901289012">
+                                </div>
+                                <fieldset class="form-group mb-4">
+                                    <div class="d-flex align-items-center mr-5">
+                                        <div class="flex-fill text-right">
+                                            <legend class="col-form-label">Gender</legend>
+                                        </div>
+                                        <div class="radio d-flex ml-5 align-items-center">
+                                            <div class="form-check form-check-inline mr-5">
+                                                <input class="form-check-input" type="radio"
+                                                name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                <label class="form-check-label"
+                                                for="inlineRadio1">Laki-laki</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio"
+                                                name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                <label class="form-check-label"
+                                                for="inlineRadio2">Perempuan</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <div class="form-group d-flex align-items-center mb-4 mr-5">
+                                    <div class="flex-fill text-right">
+                                        <label class="col-form-label">Date of birth</label>
+                                    </div>
+                                    <div class="drop d-flex justify-content-between ml-5">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle bg-white text-muted border text-right" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 1
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle bg-white text-muted border text-right" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Januari</button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle bg-white text-muted border text-right" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">1990</button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex align-items-center mb-4 mr-5">
+                                    <div class="label-width flex-fill"></div>
+                                    <div class="radio">
+                                        <button type="submit" class="btn-save btn btn-primary rounded-pill">Save</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="fill-image d-flex flex-column align-items-center justify-content-between border-left mr-5 pl-4">
+                            <div>
+                                <img class="rounded-circle" src="./assets/images/profile.jpg">
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-secondary btn-block rounded-pill">Select image</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>

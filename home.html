@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="home font-size-small">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow mb-5 bg-white sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo-44px.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <div class="input-group">
+                        <input type="search" class="form-control pl-4" placeholder="Search">
+                        <div class="input-group-append mr-3">
+                            <button class="btn pr-3 text-center" type="button" id="button-addon2">
+                                <img src="./assets/images/search.svg" alt="search">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="filter input-group-append">
+                        <button class="btn" type="button" id="button-addon2">
+                            <img src="./assets/images/filter.svg" alt="filter">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-nav nav justify-content-end">
+                <button class="img-cart btn" href="#">
+                    <img src="./assets/images/cart.svg" alt="cart">
+                </button>
+                <div class="btn-group">
+                    <button class="login btn btn-primary rounded-pill mr-3" href="#">Login</button>
+                    <button class="signup btn btn-outline-secondary rounded-pill" href="#">Signup</button>
+                </div>
+            </div>
+        </nav>
+
+        <section class="body-section">
+            <div class="slide d-flex flex-column mb-1">
+                <div class="slide-img mb-3 position-relative d-flex justify-content-between">
+                    <div>
+                        <img class="rounded-lg" src="./assets/images/slide-1.jpg">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="rounded-lg position-relative" src="./assets/images/slide-2.jpg">
+                        <span class="position-absolute h2 font-weight-bold text-white">Trends in 2020</span>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="rounded-lg position-relative" src="./assets/images/slide-3.jpg">
+                        <span class="position-absolute h2 font-weight-bold text-white">Black edition</span>
+                    </div>
+                    <div>
+                        <img class="rounded-lg" src="./assets/images/slide-4.jpg">
+                    </div>
+                    <button class="left-arrow btn position-absolute bg-white btn-outline-primary align-items-center border rounded-circle p-0">
+                        <img src="./assets/images/arrow-btn.svg">
+                    </button>
+                    <button class="right-arrow btn position-absolute bg-white btn-outline-primary border rounded-circle p-0">
+                        <img src="./assets/images/arrow-btn.svg">
+                    </button>
+                </div>
+            </div>
+            <div class="indicators h-auto d-flex justify-content-between mb-5">
+                <div class="item rounded-circle bg-secondary"></div>
+                <div class="item rounded-circle"></div>
+                <div class="item rounded-circle"></div>
+                <div class="item rounded-circle"></div>
+                <div class="item rounded-circle"></div>
+            </div>
+
+            <div class="category mb-5">
+                <div class="mb-3">
+                    <div class="h4 font-weight-bold"><span>Category</span></div>
+                    <div class="message-2 font-weight-light text-muted"><span>What are you currently looking for</span></div>
+                </div>
+                <div class="d-flex justify-content-between position-relative">
+                    <div class="category-items item-1 rounded-lg d-flex justify-content-center align-items-center">
+                        <img class ="position-relative" src="./assets/images/t-shirt.png">
+                        <span class="position-absolute text-white h3 font-weight-bold">T-Shirt</span>
+                    </div>
+                    <div class="category-items item-2 rounded-lg d-flex justify-content-center align-items-center">
+                        <img class="position-relative" src="./assets/images/shorts.png">
+                        <span class="position-absolute text-white h3 font-weight-bold">Shorts</span>
+                    </div>
+                    <div class="category-items item-3 rounded-lg d-flex justify-content-center align-items-center">
+                        <img class="position-relative" src="./assets/images/jacket.png">
+                        <span class="position-absolute text-white h3 font-weight-bold">Jacket</span>
+                    </div>
+                    <div class="category-items item-4 rounded-lg d-flex justify-content-center align-items-center">
+                        <img class ="position-relative" src="./assets/images/pants.png">
+                        <span class="position-absolute text-white h3 font-weight-bold">Pants</span>
+                    </div>
+                    <div class="category-items item-5 rounded-lg d-flex justify-content-center align-items-center">
+                        <img class="position-relative" src="./assets/images/shoes.png">
+                        <span class="position-absolute text-white h3 font-weight-bold">Shoes</span>
+                    </div>
+                    <button class="btn position-absolute bg-white btn-outline-primary border rounded-circle p-0">
+                        <img src="./assets/images/arrow-btn.svg">
+                    </button>
+                </div>
+            </div>
+     
+
+            <div class="foot mb-5">
+                <div class="foot-message mb-3">
+                    <div class="h4 font-weight-bold"><span>New</span></div>
+                    <div class="message-2 font-weight-light text-muted"><span>You've never seen before!</span></div>
+                </div>
+                <div class="foot-product d-flex flex-wrap w-100 justify-content-between">
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                      
+                </div>
+            </div>
+            <div class="foot mb-5">
+                <div class="foot-message mb-3">
+                    <div class="h4 font-weight-bold"><span>Popular</span></div>
+                    <div class="message-2 font-weight-light text-muted"><span>Find clothes that are trending recently</span></div>
+                </div>
+                <div class="foot-product d-flex flex-wrap w-100 justify-content-between">
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-lg mb-4" style="width: 208px;">
+                        <img src="./assets/images/product.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a class="font-weight-bold" href="#">Men's formal suit - Black & White</a>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-1 font-weight-bold">$ 40.0</span>
+                            </div>
+                            <div class="card-text">
+                                <span class="txt-2 text-muted">Zalora Cloth</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img src="./assets/images/star-activated.svg">
+                                <img class="mr-1" src="./assets/images/star-activated.svg">
+                                <span class="txt-2 text-muted">(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                      
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>

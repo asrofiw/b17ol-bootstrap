@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="checkout font-size-small">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow mb-5 bg-white sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo-44px.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <div class="input-group">
+                        <input type="search" class="form-control pl-4" placeholder="Search">
+                        <div class="input-group-append mr-3">
+                            <button class="btn pr-3 text-center" type="button" id="button-addon2">
+                                <img src="./assets/images/search.svg" alt="search">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="filter input-group-append">
+                        <button class="btn" type="button" id="button-addon2">
+                            <img src="./assets/images/filter.svg" alt="filter">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-nav nav justify-content-end">
+                <div class="btn-group align-items-center justify-content-center">
+                    <div class="img-cart mr-4">
+                        <a class="btn" href="#">
+                            <img src="./assets/images/cart.svg" alt="cart">
+                        </a>
+                    </div>
+                    <div class="img-bell mr-3">
+                        <a class="btn" href="#">
+                            <img src="./assets/images/bell.svg" alt="notification">
+                        </a>
+                    </div>
+                    <div class="img-mail mr-3">
+                        <a class="btn" href="#">
+                            <img src="./assets/images/mail.svg" alt="mail">
+                        </a>
+                    </div>
+                    <div class="img-profile">
+                        <a class="btn" href="#">
+                            <img class="rounded-circle" src="./assets/images/profile.jpg" alt="profile">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="sec my-5">
+            <div class="h1 mb-5 font-weight-bold">
+                <span>Checkout</span>
+            </div>
+            <div class="container d-flex p-0 m-0 justify-content-between">
+                <div class="d-flex flex-column w-75 mr-3">
+                    <div class="h5 mb-3">
+                        <span>Shipping address</span>
+                    </div>
+                    <div class="item-1 d-flex flex-column mb-3 shadow-sm w-100 p-4 border">
+                        <span class="h5 font-weight-bold mb-3">Andreas Jane</span>
+                        <p class="text-muted font-weight-light mb-4">Perumahan Sapphire Mediterania, Wiradadi, Kec. Sokaraja, Kabupaten Banyumas, Jawa Tengah, 53181 [Tokopedia Note: blok C 16] Sokaraja, Kab. Banyumas, 53181</p>
+                        <button class="btn btn-outline-secondary rounded-pill">Choose another address</button>
+                    </div>
+                    <div class="item-2 d-flex mb-3 shadow-sm align-items-center px-4 border">
+                        <img class="rounded-lg mr-3" src="./assets/images/cloth-cart-2.jpg" alt="cloth-1" class="">
+                        <div class="d-flex flex-column w-50">
+                            <span class="font-weight-bold">Men's formal suit - Black</span>
+                            <span class="text-muted">Zalora Cloth</span>
+                        </div>
+                        <div class="flex-fill text-right font-weight-bold">
+                            <span>$ 20.0</span>
+                        </div>
+                    </div>
+                    <div class="item-2 d-flex shadow-sm align-items-center px-4 border">
+                        <img class="rounded-lg mr-3" src="./assets/images/cloth-cart-1.jpg" alt="cloth-2" class="">
+                        <div class="d-flex flex-column w-50">
+                            <span class="font-weight-bold">Men's Jacket jeans</span>
+                            <span class="text-muted">Zalora Cloth</span>
+                        </div>
+                        <div class="flex-fill text-right font-weight-bold">
+                            <span>$ 20.0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-4 d-flex flex-column shadow-sm border w-25 p-3">
+                    <div class="font-weight-bold mb-3">
+                        <span>Shopping summary</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="text-muted">Order</span>
+                        <div class="font-weight-bold">
+                            <span>$ 40.0</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span class="text-muted">Delivery</span>
+                        <div class="font-weight-bold">
+                            <span>$ 5.0</span>
+                        </div>
+                    </div>
+                    <div class="line w-100 mb-3"></div>
+                    <div class="d-flex justify-content-between mb-4">
+                        <span class="font-weight-bold">Shopping summary</span>
+                        <div class="font-weight-bold">
+                            <span class="color-theme">$ 45.0</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary bg-color-theme rounded-pill">Select payment</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
